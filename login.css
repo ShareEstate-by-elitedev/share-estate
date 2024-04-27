@@ -8,18 +8,20 @@
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background: url("images/1.jpg");
+    background: url("1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     overflow: hidden;
+    backdrop-filter: blur(15px);
+    
 }
 .wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 110vh;
-    background: rgba(39, 39, 39, 0.4);
+    background: rgba(50, 49, 49, 0.4);
 }
 .nav{
     position: fixed;
